@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">D</string>
+
+
+    <string-array name="usertype">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>CIVIL</item>
+        <item>MECH</item>
+        <item>DEEE</item>
+        <item>DME</item>
+    </string-array>
+</resources>

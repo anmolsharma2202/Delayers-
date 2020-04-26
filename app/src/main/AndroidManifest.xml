@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.d">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".dmeView"></activity>
+        <activity android:name=".dmeAdd" />
+        <activity android:name=".eeeView" />
+        <activity android:name=".eeeAdd" />
+        <activity android:name=".mechView" />
+        <activity android:name=".mechAdd" />
+        <activity android:name=".civilView" />
+        <activity android:name=".civilAdd" />
+        <activity android:name=".eceView" />
+        <activity android:name=".eceAdd" />
+        <activity android:name=".cseView" />
+        <activity android:name=".cseAdd" />
+        <activity android:name=".deeeView" />
+        <activity android:name=".deeeAdd" />
+        <activity android:name=".civil" />
+        <activity android:name=".dme" />
+        <activity android:name=".deee" />
+        <activity android:name=".mech" />
+        <activity android:name=".eee" />
+        <activity android:name=".ece" />
+        <activity android:name=".cse" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+
+
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+
+
+    </application>
+
+</manifest>
